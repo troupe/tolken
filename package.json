@@ -1,0 +1,29 @@
+{
+  "name": "tolken",
+  "version": "0.0.1",
+  "description": "A simple token handling library for Node.JS web applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/troupe/tolken"
+  },
+  "keywords": [
+    "token",
+    "security"
+  ],
+  "author": "Andrew Newdigate",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troupe/tolken/issues"
+  },
+  "dependencies": {
+    "jwt-simple": "~0.1.0",
+    "sechash": "~0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0"
+  }
+}
