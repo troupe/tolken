@@ -33,7 +33,7 @@ To create a token, you'll need to provide an ID specific to your domain (userId,
 
 There are two steps in validating the token.
 
-* Extract the ID from the token using `extractIdFromClientToken`
+Extract the ID from the token using `extractIdFromClientToken`
 
     var jwtSecret = 'grumpycat';
 
@@ -41,7 +41,7 @@ There are two steps in validating the token.
 
     // Use this ID to lookup the persisted token from the database
 
-* Once you have retrieved the server token hash from your database, use `verifyClientToken` to verify the token is valid
+Once you have retrieved the server token hash from your database, use `verifyClientToken` to verify the token is valid
 
     tolken.verifyClientToken(clientToken, serverToken, jwtSecret, function(match) {
       if(match) {
